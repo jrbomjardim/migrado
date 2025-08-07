@@ -21,7 +21,7 @@ jobs:
         password: ${{ secrets.HOSTINGER_PASSWORD }}
         port: 22
         local-dir: './'
-        remote-dir: '/public_html'
-        # Certifique-se de que o diretório 'target' está correto para o seu site na Hostinger
+        server-dir: 
+'/public_html'        # Certifique-se de que o diretório 'target' está correto para o seu site na Hostinger
 
 
