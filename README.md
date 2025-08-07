@@ -1,4 +1,4 @@
 # migrado
 app de estudo para o grado
 
-hostinger5
+hostinger6
