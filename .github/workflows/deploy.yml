@@ -1,0 +1,27 @@
+name: Deploy to Hostinger
+
+on: 
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Deploy to Hostinger
+      uses: hostinger/action-deploy@v1
+      with:
+        host: ${{ secrets.HOSTINGER_HOST }}
+        username: ${{ secrets.HOSTINGER_USERNAME }}
+        password: ${{ secrets.HOSTINGER_PASSWORD }}
+        port: 22
+        source: './'
+        target: '/public_html'
+        # Certifique-se de que o diretório 'target' está correto para o seu site na Hostinger
+
+
