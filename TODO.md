@@ -27,6 +27,7 @@ Implementar as novas funcionalidades e modificações no website, organizando o 
 - [ ] **Correção de Meta Diária:** Implementar a funcionalidade da meta diária.
 - [ ] **Edição/Exclusão de Itens em Categorias (Temas e Cards):** Habilitar a funcionalidade de edição e exclusão para temas e cards, garantindo que os botões sejam clicáveis e funcionais.
 - [ ] **Visualização de Perguntas (Criação de Card):** Ao usar a lista de perguntas pré-cadastradas, exibir apenas as 10 primeiras questões na visualização para o usuário. As demais questões devem ser processadas normalmente para a criação do card, mas visualmente ocultas (sugestão: aplicar um efeito de blur ou similar para indicar que há mais conteúdo).
+- [ ] **após visualizar a lista, só permitir adicionar se o usuário for premium (realizado o pagamento), mostrar o seguinte alerta caso ele não tenha realizado o pagamento: "recurso disponível somente na versão premium".
 - [ ] **Remoção da Logo MANUS:** Localizar e remover todas as instâncias da logo MANUS no projeto.
 - [ ] **Alteração do Nome do Projeto:** Mudar o nome do projeto para "miGrado" em todas as referências visuais e no código, se aplicável.
 - [ ] **Alteração de Cores:** Implementar um novo esquema de cores moderno, com preferência por cores frias, aplicando-o de forma consistente em todo o projeto.
